@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دورة CSS</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0; 
+            background-image: url(simple.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background-color: #433BFF; 
+            overflow: hidden;
+            text-align: right; 
+            position: fixed; 
+            width: 100%; 
+        }
+
+      
+        .navbar a {
+            color: #050315; 
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: 18px;
+            display: inline-block;
+        }
+
+        .navbar a:first-child {
+            background-color: #1900f5; 
+            color: #fff; 
+        }
+
+        
+        .navbar a:hover {
+            background-color: #050315; 
+            color: #fff; 
+        }
+
+        .content {
+            padding-top: 150px; 
+            text-align: center;
+        }
+
+        img {
+            width: 20%;
+        }
+        h1 {
+            font-size: 40px;
+            font-weight: bolder;
+            color: #ffffff;
+        }
+
+       
+        .bordered-p {
+            display: inline-block; 
+            border: 3px solid #1900f5; 
+            border-radius: 15px; 
+            background-color: #1900f5; 
+            color: #fff; 
+            padding: 10px; 
+            font-size: large;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body dir="rtl">
+    <div class="navbar">
+        <a href="#">الصفحة الرئيسية</a>
+        <a href="#">من نحن</a>
+        <a href="#">تواصل معنا</a>
+        <a href="#">تفاصيل الدورة</a>
+    </div>
+
+    <div class="content">
+        <img src="CSS3_logo.svg.png" alt="Image">
+        <h1><strong> دورة لتعلم CSS</strong></h1>
+        <div class="bordered-p">
+            <p>ㅤانضمامㅤ</p>
+        </div>
+    </div>
+</body>
+
+</html>
